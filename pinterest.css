@@ -1,0 +1,57 @@
+/* color logo de pinterest #bd081c*/
+
+body{
+	font-family: sans-serif;
+}
+
+/*nav position fixed*/
+
+
+/* Este es mi segundo ul */
+.segundoMenu{
+	/* Con esta propiedad le saco las viñetas a la lista */
+	list-style: none;
+	/* Padding y margin 0 para asegurarme de que las etiquetas tienen el mismo tamaño, ya que
+	varían según cada navegador */
+	padding: 0;
+	margin: 0;
+	/* Con line-height le doy espaciado entre líneas */
+	line-height: 60px;
+	overflow: auto;
+}	
+
+/* Estas son las li de mi segundo ul */
+li{
+	width: 130px;
+	/*display: inline-block;*/
+	/* Con text-align puedo centrar el contenido de cada una de las cajitas del menú */
+	text-align: center;
+	float: left;
+	background: red;
+	position: relative;
+	margin: 5px;
+	/* redondeando bordes de las etiquetas */
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}	
+
+a{
+	/* Con text-decoration:none, me aseguro de sacar el color por defecto en la lista */
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	/* redondeando bordes de las etiquetas */
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+a:hover{
+	/* Con la etiqueta hover, se da efecto a las etiquetas cuando el cursor pasa por ellas */
+	background: grey;
+	color: #000;
+
+}
